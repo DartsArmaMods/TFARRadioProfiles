@@ -1,4 +1,4 @@
-MOD_PREFIX_main
+trp_main
 ===================
 
-Main Addon for MOD_TITLE
+Main Addon for TFAR Radio Profiles

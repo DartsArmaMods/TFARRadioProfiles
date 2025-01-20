@@ -1,4 +1,4 @@
-MOD_PREFIX_addonName
+trp_addonName
 ===================
 
 Description for this addon

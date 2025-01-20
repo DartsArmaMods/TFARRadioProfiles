@@ -1,4 +1,4 @@
-MOD_PREFIX_common
+trp_common
 ===================
 
 Common functionality shared between addons.
