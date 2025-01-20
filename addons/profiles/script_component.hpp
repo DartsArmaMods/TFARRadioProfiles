@@ -1,5 +1,5 @@
-#define COMPONENT common
-#define COMPONENT_BEAUTIFIED Common
+#define COMPONENT profiles
+#define COMPONENT_BEAUTIFIED Profiles
 #include "\z\trp\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

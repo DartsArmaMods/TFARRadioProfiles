@@ -34,12 +34,10 @@ Delete this section after the project has been initially set up:
    - This should be all uppercase.
 5. After the initial Steam upload, find and replace all instances of `MOD_ID` with the mod's Steam Workshop id.
 
-**TFAR Radio Profiles** (TRP) aims to...
-
-The project is entirely **open-source** and any contributions are welcome.
+**TFAR Radio Profiles** adds the ability to save multiple radio "profiles" for short and long range radios.
 
 ## Core Features
-- Feature
+- Saving / loading radio profiles
 
 ## Contributing
 For new contributers, see the [Contributing Setup & Guidelines](./.github/CONTRIBUTING.md).

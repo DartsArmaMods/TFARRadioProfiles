@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TRP">
+    <Package name="Profiles">
+        <Key ID="STR_trp_profiles_displayName">
+            <English>Profiles</English>
+        </Key>
+    </Package>
+</Project>
