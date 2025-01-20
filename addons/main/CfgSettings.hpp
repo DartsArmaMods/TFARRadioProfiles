@@ -6,6 +6,7 @@ class CfgSettings {
 
                 class dependencies {
                     CBA[] = {"cba_main", REQUIRED_CBA_VERSION, QUOTE(true)};
+                    TFAR[] = {"tfar_core", REQUIRED_TFAR_VERSION, QUOTE(true)};
                 };
             };
         };

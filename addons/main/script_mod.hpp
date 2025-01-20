@@ -5,6 +5,7 @@
 
 #define REQUIRED_VERSION 2.18
 #define REQUIRED_CBA_VERSION {3,18,1}
+#define REQUIRED_TFAR_VERSION {1,-1,0,273}
 
 #include "script_version.hpp"
 
