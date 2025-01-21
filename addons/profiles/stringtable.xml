@@ -1,8 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TRP">
     <Package name="Profiles">
+        <!-- https://github.com/acemod/ACE3/blob/master/addons/arsenal/stringtable.xml#L392-L407 -->
+        <Key ID="STR_trp_profiles_buttonDeleteText">
+            <English>Delete</English>
+            <Czech>Smazat</Czech>
+            <French>Supprimer</French>
+            <Spanish>Eliminar</Spanish>
+            <Italian>Elimina</Italian>
+            <Polish>Skasuj</Polish>
+            <Portuguese>Apagar</Portuguese>
+            <Russian>Удалить</Russian>
+            <German>Entfernen</German>
+            <Korean>삭제</Korean>
+            <Japanese>削除</Japanese>
+            <Chinese>刪除</Chinese>
+            <Chinesesimp>删除</Chinesesimp>
+            <Turkish>Sil</Turkish>
+        </Key>
+        <!-- https://github.com/acemod/ACE3/blob/master/addons/arsenal/stringtable.xml#L1369-L1381 -->
+        <Key ID="STR_trp_profiles_buttonLoadText">
+            <English>Load</English>
+            <Czech>Nahrát</Czech>
+            <French>Charger</French>
+            <Spanish>Cargar</Spanish>
+            <Italian>Carica</Italian>
+            <Polish>Wczytaj</Polish>
+            <Portuguese>Carregar</Portuguese>
+            <Russian>Загрузить</Russian>
+            <German>Laden</German>
+            <Korean>불러오기</Korean>
+            <Japanese>読み込む</Japanese>
+            <Chinese>載入</Chinese>
+            <Chinesesimp>载入</Chinesesimp>
+            <Turkish>Yükle</Turkish>
+        </Key>
+        <!-- https://github.com/acemod/ACE3/blob/master/addons/common/stringtable.xml#L1138-L1153 -->
+        <Key ID="STR_trp_profiles_buttonRenameText">
+            <English>Rename</English>
+            <Czech>Přejmenovat</Czech>
+            <French>Renommer</French>
+            <Spanish>Renombrar</Spanish>
+            <Italian>Rinomina</Italian>
+            <Polish>Zmień nazwę</Polish>
+            <Portuguese>Renomear</Portuguese>
+            <Russian>Переименовать</Russian>
+            <German>Umbenennen</German>
+            <Korean>이름 바꾸기</Korean>
+            <Japanese>名前変更</Japanese>
+            <Chinese>重新命名</Chinese>
+            <Chinesesimp>重新命名</Chinesesimp>
+            <Turkish>Yeniden adlandır</Turkish>
+        </Key>
+        <!-- https://github.com/acemod/ACE3/blob/master/addons/arsenal/stringtable.xml#L611-L626 -->
+        <Key ID="STR_trp_profiles_buttonSaveText">
+            <English>Save</English>
+            <Czech>Uložit</Czech>
+            <French>Enregistrer</French>
+            <Spanish>Guardar</Spanish>
+            <Italian>Salva</Italian>
+            <Polish>Zapisz</Polish>
+            <Portuguese>Salvar</Portuguese>
+            <Russian>Сохранить</Russian>
+            <German>Speichern</German>
+            <Korean>저장</Korean>
+            <Japanese>保存</Japanese>
+            <Chinese>保存</Chinese>
+            <Chinesesimp>保存</Chinesesimp>
+            <Turkish>Kaydet</Turkish>
+        </Key>
         <Key ID="STR_trp_profiles_displayName">
             <English>Profiles</English>
+        </Key>
+        <Key ID="STR_trp_profiles_radioProfiles">
+            <English>Radio Profiles</English>
         </Key>
     </Package>
 </Project>

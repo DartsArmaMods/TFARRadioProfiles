@@ -1,0 +1,1 @@
+The following files are used in compliance with [chatterchat's ASTRS](https://github.com/chatterchats/ASTRS)'s MIT license.

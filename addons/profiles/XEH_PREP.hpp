@@ -1,1 +1,9 @@
-// PREP(empty);
+PREP(buttonDeleteProfile);
+PREP(buttonLoadProfile);
+PREP(buttonRenameProfile);
+PREP(buttonSaveProfile);
+PREP(loadProfile);
+PREP(onDisplayClose);
+PREP(onDisplayOpen);
+PREP(populateProfiles);
+PREP(saveProfile);
