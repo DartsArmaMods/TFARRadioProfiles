@@ -72,6 +72,12 @@
         <Key ID="STR_trp_profiles_displayName">
             <English>Profiles</English>
         </Key>
+        <Key ID="STR_trp_profiles_openRadioProfiles_name">
+            <English>Open Radio Profile Menu</English>
+        </Key>
+        <Key ID="STR_trp_profiles_openRadioProfiles_tooltip">
+            <English>Opens the display to modify saved profiles.</English>
+        </Key>
         <Key ID="STR_trp_profiles_radioProfiles">
             <English>Radio Profiles</English>
         </Key>

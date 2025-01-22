@@ -5,6 +5,7 @@ class CfgVehicles {
             class GVAR(openDisplay) {
                 displayName = CSTRING(radioProfiles);
                 icon = QPATHTOF(data\ui\icon_ca.paa);
+                exceptions[] = {"isNotInside", "isNotSitting"};
                 condition = "isMultiplayer";
                 statement = QUOTE(createDialog QQGVAR(display));
             };
