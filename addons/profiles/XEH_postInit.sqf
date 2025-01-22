@@ -34,5 +34,6 @@ if (!hasInterface) exitWith {};
         TRACE_1("Latest profile",_latestProfile);
 
         _latestProfile call FUNC(loadProfile);
+        _unit setVariable [QGVAR(restoreProfile), nil];
     }, nil, 0.5] call CBA_fnc_waitAndExecute;
 }] call CBA_fnc_addEventHandler;
