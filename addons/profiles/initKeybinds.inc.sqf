@@ -3,6 +3,7 @@
 [
     _category, QGVAR(key_openRadioProfiles),
     [LSTRING(openRadioProfiles_name), LSTRING(openRadioProfiles_tooltip)], {
+        if (!isMultiplayer) exitWith {};
         createDialog QGVAR(display);
     }
 ] call CBA_fnc_addKeybind;
