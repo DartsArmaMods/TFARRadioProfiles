@@ -5,6 +5,8 @@
  *
  * Arguments:
  * 0: Name <STRING>
+ * 1: Set as latest selected profile (optional, default: false) <BOOL>
+ *    - If true, the given profile will be set when loading a loadout / respawning
  *
  * Return Value:
  * Success <ARRAY>
@@ -23,9 +25,10 @@ if (!isMultiplayer) exitWith {
 };
 
 params [
-    ["_name", "", [""]]
+    ["_name", "", [""]],
+    ["_setLatest", false, [false]]
 ];
-TRACE_1("fnc_loadProfile",_name);
+TRACE_2("fnc_loadProfile",_name,_setLatest);
 
 if (_name == "" ) exitWith {
     ERROR("Cannot load radio profile with empty name");
@@ -46,6 +49,10 @@ private _loadedLR = false;
 if (!isNil "_lrRadio") then {
     [_lrRadio, _savedLRSettings] call TFAR_fnc_setLrSettings;
     private _loadedLR = true;
+};
+
+if (_setLatest) then {
+    ([] call CBA_fnc_currentUnit) setVariable [QGVAR(latestProfile), _name];
 };
 
 [_loadedSR, _loadedLR];

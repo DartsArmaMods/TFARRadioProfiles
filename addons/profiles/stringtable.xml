@@ -75,5 +75,17 @@
         <Key ID="STR_trp_profiles_radioProfiles">
             <English>Radio Profiles</English>
         </Key>
+        <Key ID="STR_trp_profiles_restoreOnLoadout_name">
+            <English>Restore Profile on Loadout Change</English>
+        </Key>
+        <Key ID="STR_trp_profiles_restoreOnLoadout_tooltip">
+            <English>If enabled, your last selected profile will be restored after receiving a radio from the server.</English>
+        </Key>
+        <Key ID="STR_trp_profiles_restoreOnRespawn_name">
+            <English>Restore Profile on Respawn</English>
+        </Key>
+        <Key ID="STR_trp_profiles_restoreOnRespawn_tooltip">
+            <English>If enabled, your last selected profile will be restored after respawning.</English>
+        </Key>
     </Package>
 </Project>

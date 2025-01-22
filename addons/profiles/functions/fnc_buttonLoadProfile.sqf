@@ -23,6 +23,6 @@ playSoundUI BUTTON_CLICK_SOUND;
 private _contentPanel = _display displayCtrl IDC_CONTENT_PANEL;
 private _profileName = _contentPanel lbText (lbCurSel _contentPanel);
 
-_profileName call FUNC(loadProfile);
+[_profileName, true] call FUNC(loadProfile);
 
 true; // Keep display open
