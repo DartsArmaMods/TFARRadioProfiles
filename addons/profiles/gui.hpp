@@ -21,7 +21,7 @@ class GVAR(display) {
                     idc = -1;
                     x = QUOTE(0);
                     y = QUOTE(0);
-                    w = QUOTE(160 * GRID_W);
+                    w = QUOTE(80 * GRID_W);
                     h = QUOTE(safeZoneH - (45 * GRID_H));
                     colorBackground[] = {0.13, 0.13, 0.13, 0.9};
                 };
@@ -31,7 +31,7 @@ class GVAR(display) {
                     text = "";
                     x = QUOTE(0);
                     y = QUOTE(0);
-                    w = QUOTE(160 * GRID_W);
+                    w = QUOTE(80 * GRID_W);
                     h = QUOTE(5 * GRID_H);
                     sizeEx = QUOTE(5 * GRID_H);
                 };
@@ -40,7 +40,7 @@ class GVAR(display) {
                     text = CSTRING(radioProfiles);
                     x = QUOTE(0);
                     y = QUOTE(0);
-                    w = QUOTE(150 * GRID_W);
+                    w = QUOTE(80 * GRID_W);
                     h = QUOTE(5 * GRID_H);
                     sizeEx = QUOTE(5 * GRID_H);
                     colorBackground[] = {0, 0, 0, 0};
@@ -63,6 +63,19 @@ class GVAR(display) {
                     w = QUOTE(58 * GRID_W);
                     h = QUOTE(3 * GRID_H);
                     sizeEx = QUOTE(3 * GRID_H);
+                };
+                class buttonClose: ctrlButton {
+                    idc = -1;
+                    x = QUOTE(75 * GRID_W);
+                    y = QUOTE(0 * GRID_H);
+                    w = QUOTE(5 * GRID_W);
+                    h = QUOTE(5 * GRID_H);
+                    text = "X";
+                    sizeEx = QUOTE(5 * GRID_H);
+                    onButtonClick = QUOTE(closeDialog 0);
+                    colorText[] = {1, 1, 1, 1};
+                    colorBackground[] = {0, 0, 0, 0.2};
+                    colorBackgroundActive[] = {0.5, 0, 0, 1};
                 };
 
                 #define BUTTON_WIDTH 13
@@ -99,7 +112,7 @@ class GVAR(display) {
                     x = QUOTE(BUTTON_SPACING(3));
                     text = CSTRING(buttonDeleteText);
                     // tooltip = CSTRING(buttonDeleteTooltip);
-                    colorBackgroundActive[] = {0.5,0,0,1};
+                    colorBackgroundActive[] = {0.5, 0, 0, 1};
                     onButtonClick = QUOTE([ARR_2(ctrlParent (_this select 0),_this select 0)] call FUNC(buttonDeleteProfile));
                 };
             };
