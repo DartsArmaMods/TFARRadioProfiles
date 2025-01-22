@@ -8,8 +8,8 @@
     <a href="https://github.com/DartsArmaMods/TFARRadioProfiles/issues">
         <img src="https://img.shields.io/github/issues-raw/DartsArmaMods/TFARRadioProfiles.svg?style=flat-square&label=Issues" alt="TFAR Radio Profiles Issues">
     </a>
-    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=MOD_ID">
-        <img src="https://img.shields.io/steam/downloads/MOD_ID.svg?style=flat-square&label=Downloads" alt="TFAR Radio Profiles Downloads">
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3412554962">
+        <img src="https://img.shields.io/steam/downloads/3412554962.svg?style=flat-square&label=Downloads" alt="TFAR Radio Profiles Downloads">
     </a>
     <a href="https://github.com/DartsArmaMods/TFARRadioProfiles/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-APL ND-red?style=flat-square" alt="TFAR Radio Profiles License">
@@ -23,23 +23,10 @@
     <b>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases/latest">CBA A3</a></b>
 </p>
 
-# Initial Project Setup!
-Delete this section after the project has been initially set up:
-1. Find and replace all instances of `TFAR Radio Profiles` with the mod's name.
-2. Find and replace all instances of `TFARRadioProfiles` with the mod's name *and no spaces*.
-   - This should be the name of the repository on GitHub.
-3. Find and replace all instances of `trp` with the mod's prefix.
-   - This should be all lowercase.
-4. Find and replace all instances of `TRP` with the mod's acronym.
-   - This should be all uppercase.
-5. After the initial Steam upload, find and replace all instances of `MOD_ID` with the mod's Steam Workshop id.
-
-**TFAR Radio Profiles** (TRP) aims to...
-
-The project is entirely **open-source** and any contributions are welcome.
+**TFAR Radio Profiles** adds the ability to save multiple radio "profiles" for short and long range radios.
 
 ## Core Features
-- Feature
+- Saving / loading radio profiles
 
 ## Contributing
 For new contributers, see the [Contributing Setup & Guidelines](./.github/CONTRIBUTING.md).
