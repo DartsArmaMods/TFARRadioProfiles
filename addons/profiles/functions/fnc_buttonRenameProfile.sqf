@@ -34,5 +34,11 @@ private _profileData = _profiles deleteAt _oldName;
 _profiles set [_newName, _profileData];
 
 [_display] call FUNC(populateProfiles);
+private _contentPanel = _display displayCtrl IDC_CONTENT_PANEL;
+
+// Select the new profile
+private _profileNames = keys _profiles;
+_profileNames sort true;
+_contentPanel lbSetCurSel (_profileNames find _name);
 
 true;
