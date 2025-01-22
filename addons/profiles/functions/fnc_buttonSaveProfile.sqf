@@ -24,6 +24,11 @@ playSoundUI BUTTON_CLICK_SOUND;
 private _editBox = _display displayCtrl IDC_PROFILE_NAME_EDIT_BOX;
 private _name = ctrlText _editBox;
 
+if (_name == "") exitWith {
+    LLSTRING(emptyNameError) call FUNC(message);
+    true;
+};
+
 private _srSettings = ([] call TFAR_fnc_activeSwRadio) call TFAR_fnc_getSwSettings;
 if (isNil "_srSettings") then {
     _srSettings = [];

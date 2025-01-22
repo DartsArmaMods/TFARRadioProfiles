@@ -67,4 +67,6 @@ if (!isNull _display) then {
     _contentPanel lbSetCurSel (_profileNames find _name);
 };
 
+"Profile was saved" call FUNC(message);
+
 [_savedSR, _savedLR];

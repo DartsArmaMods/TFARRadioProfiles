@@ -24,7 +24,10 @@ playSoundUI BUTTON_CLICK_SOUND;
 private _editBox = _display displayCtrl IDC_PROFILE_NAME_EDIT_BOX;
 private _newName = ctrlText _editBox;
 
-if (_newName == "") exitWith {};
+if (_newName == "") exitWith {
+    LLSTRING(emptyNameError) call FUNC(message);
+    true;
+};
 
 private _contentPanel = _display displayCtrl IDC_CONTENT_PANEL;
 private _oldName = _contentPanel lbText (lbCurSel _contentPanel);

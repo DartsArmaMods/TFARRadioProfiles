@@ -4,6 +4,7 @@ PREP(buttonRenameProfile);
 PREP(buttonSaveProfile);
 PREP(deleteProfile);
 PREP(loadProfile);
+PREP(message);
 PREP(onDisplayClose);
 PREP(onDisplayOpen);
 PREP(populateProfiles);

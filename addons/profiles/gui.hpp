@@ -9,11 +9,11 @@ class GVAR(display) {
     onLoad = QUOTE(call FUNC(onDisplayOpen));
     onUnload = QUOTE(call FUNC(onDisplayClose));
 
-    class Controls {
+    class controls {
         class centerBox: ctrlControlsGroupNoScrollbars {
             idc = -1;
             x = QUOTE(0.5 - GRID_W * (DISPLAY_WIDTH / 2));
-            y = QUOTE(1 - GRID_H * (DISPLAY_HEIGHT / 2));
+            y = QUOTE(0.9 - GRID_H * (DISPLAY_HEIGHT / 2));
             w = QUOTE(GRID_W * DISPLAY_WIDTH);
             h = QUOTE(GRID_H * DISPLAY_HEIGHT);
             class controls {
@@ -117,6 +117,20 @@ class GVAR(display) {
                 };
             };
         };
+
+        class message: RscText {
+            idc = IDC_MESSAGE;
+            fade = 1;
+            style = 2;
+            shadow = 0;
+            colorBackground[] = {0, 0, 0, 0.7};
+            text = "";
+            x = QUOTE(0.5 - GRID_W * (DISPLAY_WIDTH / 2));
+            y = QUOTE(1.8 -GRID_H * (DISPLAY_HEIGHT / 2));
+            w = QUOTE(GRID_W * DISPLAY_WIDTH);
+            h = QUOTE(5 * GRID_H);
+            sizeEx = QUOTE(2 * GRID_H);
+        };
     };
-    class ControlsBackground {};
+    class controlsBackground {};
 };

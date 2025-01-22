@@ -72,6 +72,9 @@
         <Key ID="STR_trp_profiles_displayName">
             <English>Profiles</English>
         </Key>
+        <Key ID="STR_trp_profiles_emptyNameError">
+            <English>The profile's name cannot be empty.</English>
+        </Key>
         <Key ID="STR_trp_profiles_openRadioProfiles_name">
             <English>Open Radio Profile Menu</English>
         </Key>
