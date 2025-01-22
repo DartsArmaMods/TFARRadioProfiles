@@ -16,4 +16,23 @@
  * Public: No
  */
 
+params ["_display"];
+TRACE_1("fnc_buttonRenameProfile",_display);
+
+playSoundUI BUTTON_CLICK_SOUND;
+
+private _editBox = _display displayCtrl IDC_PROFILE_NAME_EDIT_BOX;
+private _newName = ctrlText _editBox;
+
+if (_newName == "") exitWith {};
+
+private _contentPanel = _display displayCtrl IDC_CONTENT_PANEL;
+private _oldName = _contentPanel lbText (lbCurSel _contentPanel);
+
+private _profiles = profileNamespace getVariable [QGVAR(radioProfiles), createHashMap];
+private _profileData = _profiles deleteAt _oldName;
+_profiles set [_newName, _profileData];
+
+[_display] call FUNC(populateProfiles);
+
 true;

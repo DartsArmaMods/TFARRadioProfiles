@@ -36,7 +36,6 @@ private _profiles = profileNamespace getVariable [QGVAR(radioProfiles), createHa
 
 private _srRadio = [] call TFAR_fnc_activeSwRadio;
 private _loadedSR = false;
-systemChat format ["_srRadio = %1", _srRadio];
 if (!isNil "_srRadio") then {
     [_srRadio, _savedSRSettings] call TFAR_fnc_setSwSettings;
     private _loadedSR = true;
@@ -44,7 +43,6 @@ if (!isNil "_srRadio") then {
 
 private _lrRadio = [] call TFAR_fnc_activeLrRadio;
 private _loadedLR = false;
-systemChat format ["_lrRadio = %1", _lrRadio];
 if (!isNil "_lrRadio") then {
     [_lrRadio, _savedLRSettings] call TFAR_fnc_setLrSettings;
     private _loadedLR = true;

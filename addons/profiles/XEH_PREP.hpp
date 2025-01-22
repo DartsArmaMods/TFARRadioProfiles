@@ -2,6 +2,7 @@ PREP(buttonDeleteProfile);
 PREP(buttonLoadProfile);
 PREP(buttonRenameProfile);
 PREP(buttonSaveProfile);
+PREP(deleteProfile);
 PREP(loadProfile);
 PREP(onDisplayClose);
 PREP(onDisplayOpen);

@@ -19,6 +19,8 @@
 params ["_display"];
 TRACE_1("fnc_buttonSaveProfile",_display);
 
+// For whatever reason, having an onButtonClick breaks the button click sound
+playSoundUI BUTTON_CLICK_SOUND;
 private _editBox = _display displayCtrl IDC_PROFILE_NAME_EDIT_BOX;
 private _name = ctrlText _editBox;
 

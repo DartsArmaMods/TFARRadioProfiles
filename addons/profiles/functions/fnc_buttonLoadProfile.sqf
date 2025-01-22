@@ -19,6 +19,7 @@
 params ["_display"];
 TRACE_1("fnc_buttonLoadProfile",_display);
 
+playSoundUI BUTTON_CLICK_SOUND;
 private _contentPanel = _display displayCtrl IDC_CONTENT_PANEL;
 private _profileName = _contentPanel lbText (lbCurSel _contentPanel);
 

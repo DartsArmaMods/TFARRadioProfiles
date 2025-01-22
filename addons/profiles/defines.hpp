@@ -5,6 +5,8 @@
 #define GRID_W (pixelW * pixelGrid)
 #define GRID_H (pixelH * pixelGrid)
 
+#define BUTTON_CLICK_SOUND ["\A3\ui_f\data\sound\RscButton\soundClick.wss", 0.09, 1]
+
 __COUNTER_RESET__
 #define IDD_RADIO_PROFILES 2018160
 #define IDC_CONTENT_PANEL 0

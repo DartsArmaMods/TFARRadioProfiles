@@ -48,7 +48,7 @@ if (_srSettings isNotEqualTo []) then {
 
 private _savedLR = false;
 if (_lrSettings isNotEqualTo []) then {
-    _savedSRSettings = _lrSettings;
+    _savedLRSettings = _lrSettings;
     _savedLR = true;
 };
 
@@ -59,6 +59,12 @@ profileNamespace setVariable [QGVAR(radioProfiles), _profiles];
 private _display = uiNamespace getVariable [QGVAR(display), displayNull];
 if (!isNull _display) then {
     _display call FUNC(populateProfiles);
+    private _contentPanel = _display displayCtrl IDC_CONTENT_PANEL;
+
+    // Select the new profile
+    private _profileNames = keys _profiles;
+    _profileNames sort true;
+    _contentPanel lbSetCurSel (_profileNames find _name);
 };
 
 [_savedSR, _savedLR];
