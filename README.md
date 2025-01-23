@@ -3,7 +3,7 @@
 <h1 align="center">TFAR Radio Profiles</h1>
 <p align="center">
     <a href="https://github.com/DartsArmaMods/TFARRadioProfiles/releases/latest">
-        <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square" alt="TFAR Radio Profiles Version">
+        <img src="https://img.shields.io/badge/Version-1.0.1-blue?style=flat-square" alt="TFAR Radio Profiles Version">
     </a>
     <a href="https://github.com/DartsArmaMods/TFARRadioProfiles/issues">
         <img src="https://img.shields.io/github/issues-raw/DartsArmaMods/TFARRadioProfiles.svg?style=flat-square&label=Issues" alt="TFAR Radio Profiles Issues">
