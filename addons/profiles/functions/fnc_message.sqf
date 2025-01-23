@@ -20,7 +20,7 @@
 params ["_message"];
 TRACE_1("fnc_message",_message);
 
-uiNamespace getVariable [QGVAR(display), displayNull];
+_display = uiNamespace getVariable [QGVAR(display), displayNull];
 if (isNull _display) exitWith {};
 
 private _control = _display displayCtrl IDC_MESSAGE;

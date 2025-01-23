@@ -32,6 +32,9 @@ if (_newName == "") exitWith {
 private _contentPanel = _display displayCtrl IDC_CONTENT_PANEL;
 private _oldName = _contentPanel lbText (lbCurSel _contentPanel);
 
+// isEqualTo is case sensitive, == is not
+if (_newName isEqualTo _oldName) exitWith {};
+
 private _profiles = profileNamespace getVariable [QGVAR(radioProfiles), createHashMap];
 private _profileData = _profiles deleteAt _oldName;
 _profiles set [_newName, _profileData];
