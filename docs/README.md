@@ -20,16 +20,21 @@
 </p>
 
 <p align="center">
-    <b>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases/latest">CBA A3</a></b>
+    <b>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases/latest">CBA A3</a> and <a href="https://github.com/michail-nikolaev/task-force-arma-3-radio/releases/latest">Task Force Arrowhead Radio (BETA!!!)</a></b>
 </p>
 
 **TFAR Radio Profiles** adds the ability to save multiple radio "profiles" for short and long range radios.
 
+This mod is **entirely client-side**, and does not need to be run on the server to work. It can still be installed on the server to force clients to use certain settings.
+
 ## Core Features
-- Saving / loading radio profiles
+- Saving / loading radio profiles, which are saved to your Arma profile.
+  - To open the menu, you can Self Interact (if using ACE) or using the keybind (unbound by default).
 
 ## Contributing
 For new contributers, see the [Contributing Setup & Guidelines](./.github/CONTRIBUTING.md).
 
 ## License
 TFAR Radio Profiles is licensed under [APL-ND](./LICENSE.md).
+
+Icons located at `addons/profiles/data/ui` are from [chatterchat's ASTRS](https://github.com/chatterchats/ASTRS), and are licensed under MIT.
