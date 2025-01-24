@@ -20,3 +20,6 @@ exclude = []
 
 [properties]
 author = "DartRuffian"
+
+[hemtt.release]
+archive = false
