@@ -55,6 +55,9 @@ if (_lrSettings isNotEqualTo []) then {
 _profiles set [_name, [_savedSRSettings, _savedLRSettings]];
 profileNamespace setVariable [QGVAR(radioProfiles), _profiles];
 
+INFO_3("Saved profile '%1' | Saved SR: %2 | Saved LR: %3",_name,_savedSR,_savedLR);
+TRACE_2("Profile settings",_savedSRSettings,_savedLRSettings);
+
 // If profile display is open, then add the new value
 private _display = uiNamespace getVariable [QGVAR(display), displayNull];
 if (!isNull _display) then {
@@ -66,7 +69,5 @@ if (!isNull _display) then {
     _profileNames sort true;
     _contentPanel lbSetCurSel (_profileNames find _name);
 };
-
-"Profile was saved" call FUNC(message);
 
 [_savedSR, _savedLR];

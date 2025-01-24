@@ -1,6 +1,7 @@
 [default]
 workshop = [
     "450814997",  # CBA_A3
+    "463939057", # ACE
     "894678801",  # Task Force Arrowhead Radio
     "2369477168", # Advanced Dev Tools
     "623475643",  # 3DEN Enhanced
@@ -10,9 +11,3 @@ dlc = []
 optionals = []
 parameters = []
 mission = "RadioProfiles.VR"
-
-[ace]
-extends = "default"
-workshop = [
-    "463939057", # ACE
-]
