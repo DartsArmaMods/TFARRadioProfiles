@@ -33,6 +33,10 @@ params [
 ];
 TRACE_3("fnc_saveProfile",_name,_srSettings,_lrSettings);
 
+// Assume user sent references to the settings
+_srSettings = +_srSettings;
+_lrSettings = +_lrSettings;
+
 if (_name == "" || {_srSettings isEqualTo [] && _lrSettings isEqualTo []}) exitWith {
     ERROR_3("Invalid params passed to saveProfile. Name (%1) is empty or settings are empty, SR = %2; LR = %3",_name,_srSettings,_lrSettings);
 };
