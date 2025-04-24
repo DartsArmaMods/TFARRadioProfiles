@@ -42,6 +42,7 @@ class GVAR(display) {
                     h = QUOTE(HEIGHT_TOTAL);
                     colorBackground[] = {0.13, 0.13, 0.13, 0.9};
                     sizeEx = QUOTE(TEXT_SIZE * GRID_H);
+                    onLBDblClick = QUOTE([ARR_2(ctrlParent (_this select 0),_this select 0)] call FUNC(buttonLoadProfile));
                 };
                 class buttonClose: ctrlButton {
                     idc = -1;

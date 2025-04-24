@@ -25,4 +25,6 @@ private _profileName = _contentPanel lbText (lbCurSel _contentPanel);
 
 [_profileName, true] call FUNC(loadProfile);
 
+format [LLSTRING(loadedProfile), _profileName] call FUNC(message);
+
 true; // Keep display open
