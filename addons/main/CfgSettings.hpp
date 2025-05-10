@@ -3,7 +3,7 @@ class CfgSettings {
         class Versioning {
             class PREFIX {
                 main_addon = QUOTE(ADDON);
-                level = -2; // Only show version mismatch if server has the mod installed.
+                level = -2; // Only check version if server has the mod loaded
 
                 class dependencies {
                     CBA[] = {"cba_main", REQUIRED_CBA_VERSION, QUOTE(true)};
